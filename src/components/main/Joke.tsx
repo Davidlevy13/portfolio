@@ -1,3 +1,8 @@
+interface Joke {
+  setup: string;
+  punchline: string;
+}
+
 import {useEffect, useState} from 'react';
 
 export const Api = () => {
@@ -15,7 +20,7 @@ useEffect (()=>{
    return(
     <div className="text-center">
       <h2 className="pb-2 font-bold">Une blague ?</h2>
-      {joke?.setup}
+      {joke?.setup};
     </div>
    )
   };
