@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  --primary: #808000;
+  --secondary : #1b1b1b;
+  --couleur3 : #83f52c;
+  --creme : #d1af76;
+  
+
+}
+
